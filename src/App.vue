@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import TimelinedropSecond from './components/TimelinedropSecond.vue';
+import Timeline from './components/Timeline.vue';
+import ArtifactChart from './components/ArtifactChart.vue';
 </script>
 
 <template>
-  <TimelinedropSecond />
-
+<Timeline/>
+<ArtifactChart/>
 </template>
 
 <style scoped>
